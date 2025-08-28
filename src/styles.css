@@ -1,0 +1,72 @@
+/* You can add global styles to this file, and also import other style files */
+
+/* Bootstrap CSS */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/* PrimeNG CSS */
+@import '~primeng/resources/themes/saga-blue/theme.css';
+@import '~primeng/resources/primeng.min.css';
+@import '~primeicons/primeicons.css';
+
+/* Global Styles */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.mt-3 {
+  margin-top: 1rem;
+}
+
+.mb-3 {
+  margin-bottom: 1rem;
+}
+
+.mb-4 {
+  margin-bottom: 1.5rem;
+}
+
+/* Custom PrimeNG overrides */
+.p-datatable .p-datatable-thead > tr > th {
+  background-color: #f8f9fa;
+  border-color: #dee2e6;
+  color: #495057;
+  font-weight: 600;
+}
+
+.p-datatable .p-datatable-tbody > tr > td {
+  border-color: #dee2e6;
+}
+
+.p-chart {
+  position: relative;
+}
+
+/* Modal customizations */
+.modal-content {
+  border: none;
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.modal-header {
+  border-bottom: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+}
+
+.modal-footer {
+  border-top: 1px solid #dee2e6;
+  background-color: #f8f9fa;
+}
