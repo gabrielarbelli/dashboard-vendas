@@ -1,6 +1,8 @@
 # Dashboard de Vendas
 
-Uma aplicação Angular para análise de dados de vendas através de upload de arquivos CSV.
+Uma aplicação Angular para análise de dados de vendas através de upload de arquivos CSV.  
+O arquivo CSV utilizado para teste se encontra em "src/assets/vendas.csv".  
+Publicado na [**Vercel**](https://dashboard-vendas-kibq.vercel.app/)
 
 ## Tecnologias Utilizadas
 
